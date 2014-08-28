@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Command">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreteCommand">
+    <Position X="2.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>concrete_command.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="reciever_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Invoker">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAIAACAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>invoker.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="command_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reciever">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>reciever.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
