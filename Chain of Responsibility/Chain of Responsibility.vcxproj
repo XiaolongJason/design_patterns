@@ -76,6 +76,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="concrete_handle_a.h" />
+    <ClInclude Include="concrete_handle_b.h" />
+    <ClInclude Include="handle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chain_of_responsibility_test.cpp" />
+    <ClCompile Include="concrete_handle_a.cpp" />
+    <ClCompile Include="concrete_handle_b.cpp" />
+    <ClCompile Include="handle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
