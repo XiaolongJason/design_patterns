@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3F193559-7383-4408-BE98-C54AFB924470}</ProjectGuid>
+    <ProjectGuid>{258C52DD-802B-4112-A355-D30347B8FA9F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ChainofResponsibility</RootNamespace>
+    <RootNamespace>Iterator</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,18 +76,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="concrete_handle_a.h" />
-    <ClInclude Include="concrete_handle_b.h" />
-    <ClInclude Include="handle.h" />
+    <ClInclude Include="aggregate.h" />
+    <ClInclude Include="concrete_aggregate.h" />
+    <ClInclude Include="concrete_iterator.h" />
+    <ClInclude Include="iterator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chain_of_responsibility_test.cpp" />
-    <ClCompile Include="concrete_handle_a.cpp" />
-    <ClCompile Include="concrete_handle_b.cpp" />
-    <ClCompile Include="handle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="aggregate.cpp" />
+    <ClCompile Include="concrete_aggregate.cpp" />
+    <ClCompile Include="concrete_iterator.cpp" />
+    <ClCompile Include="iterator.cpp" />
+    <ClCompile Include="iterator_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

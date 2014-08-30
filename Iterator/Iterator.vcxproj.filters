@@ -15,31 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="handle.h">
+    <ClInclude Include="iterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="concrete_handle_a.h">
+    <ClInclude Include="aggregate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="concrete_handle_b.h">
+    <ClInclude Include="concrete_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concrete_aggregate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chain_of_responsibility_test.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="concrete_handle_a.cpp">
+    <ClCompile Include="iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="concrete_handle_b.cpp">
+    <ClCompile Include="aggregate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="handle.cpp">
+    <ClCompile Include="concrete_iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="concrete_aggregate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
