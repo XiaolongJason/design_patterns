@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iterator.h">
+    <ClInclude Include="observer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="aggregate.h">
+    <ClInclude Include="subject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="concrete_iterator.h">
+    <ClInclude Include="concrete_subject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="concrete_aggregate.h">
+    <ClInclude Include="concrete_observer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="iterator.cpp">
+    <ClCompile Include="observer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="aggregate.cpp">
+    <ClCompile Include="subject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="concrete_iterator.cpp">
+    <ClCompile Include="concrete_subject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="concrete_aggregate.cpp">
+    <ClCompile Include="concrete_observer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="iterator_test.cpp">
+    <ClCompile Include="observer_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

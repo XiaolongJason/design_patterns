@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chain of Responsibility", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Iterator", "Iterator\Iterator.vcxproj", "{258C52DD-802B-4112-A355-D30347B8FA9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer", "Observer\Observer.vcxproj", "{337C4D3A-CBF1-4EBB-BCDD-02942FDAF83A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{258C52DD-802B-4112-A355-D30347B8FA9F}.Debug|Win32.Build.0 = Debug|Win32
 		{258C52DD-802B-4112-A355-D30347B8FA9F}.Release|Win32.ActiveCfg = Release|Win32
 		{258C52DD-802B-4112-A355-D30347B8FA9F}.Release|Win32.Build.0 = Release|Win32
+		{337C4D3A-CBF1-4EBB-BCDD-02942FDAF83A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{337C4D3A-CBF1-4EBB-BCDD-02942FDAF83A}.Debug|Win32.Build.0 = Debug|Win32
+		{337C4D3A-CBF1-4EBB-BCDD-02942FDAF83A}.Release|Win32.ActiveCfg = Release|Win32
+		{337C4D3A-CBF1-4EBB-BCDD-02942FDAF83A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

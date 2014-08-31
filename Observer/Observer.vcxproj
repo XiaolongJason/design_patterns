@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{258C52DD-802B-4112-A355-D30347B8FA9F}</ProjectGuid>
+    <ProjectGuid>{337C4D3A-CBF1-4EBB-BCDD-02942FDAF83A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Iterator</RootNamespace>
+    <RootNamespace>Observer</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,17 +76,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="aggregate.h" />
-    <ClInclude Include="concrete_aggregate.h" />
-    <ClInclude Include="concrete_iterator.h" />
-    <ClInclude Include="iterator.h" />
+    <ClInclude Include="concrete_observer.h" />
+    <ClInclude Include="concrete_subject.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="subject.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="aggregate.cpp" />
-    <ClCompile Include="concrete_aggregate.cpp" />
-    <ClCompile Include="concrete_iterator.cpp" />
-    <ClCompile Include="iterator.cpp" />
-    <ClCompile Include="iterator_test.cpp" />
+    <ClCompile Include="concrete_observer.cpp" />
+    <ClCompile Include="concrete_subject.cpp" />
+    <ClCompile Include="observer.cpp" />
+    <ClCompile Include="observer_test.cpp" />
+    <ClCompile Include="subject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
