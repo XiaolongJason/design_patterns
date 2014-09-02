@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Facade">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAggAAAAAACCAAAABAAAAAAAAAA=</HashCode>
+      <FileName>facade.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="system_a_" />
+      <Field Name="system_b_" />
+      <Field Name="system_c_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SubSystemA" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>sub_system_a.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubSystemB" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>sub_system_b.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubSystemC" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>sub_system_c.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer", "Observer\Observ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strategy.vcxproj", "{5D264E24-3C64-45B5-8094-B9A30756E887}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcxproj", "{601881D3-496C-4E41-9066-C3252643330C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{5D264E24-3C64-45B5-8094-B9A30756E887}.Debug|Win32.Build.0 = Debug|Win32
 		{5D264E24-3C64-45B5-8094-B9A30756E887}.Release|Win32.ActiveCfg = Release|Win32
 		{5D264E24-3C64-45B5-8094-B9A30756E887}.Release|Win32.Build.0 = Release|Win32
+		{601881D3-496C-4E41-9066-C3252643330C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{601881D3-496C-4E41-9066-C3252643330C}.Debug|Win32.Build.0 = Debug|Win32
+		{601881D3-496C-4E41-9066-C3252643330C}.Release|Win32.ActiveCfg = Release|Win32
+		{601881D3-496C-4E41-9066-C3252643330C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
